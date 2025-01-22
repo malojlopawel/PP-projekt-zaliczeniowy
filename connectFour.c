@@ -62,7 +62,7 @@ int dropDisc(const char* board[ROWS][COLS], int col, const char* disc) {
             return row;
         }
     }
-    // return -1;
+    return -1;
 }
 
 // funkcja sprawdzająca czy gracz wygrał
